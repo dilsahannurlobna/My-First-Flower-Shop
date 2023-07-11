@@ -1,0 +1,23 @@
+main{
+    display: flex;
+    margin-left: 240px;
+    margin-right: 240px;
+    justify-content: center;
+    align-items: center;
+}
+img{
+    max-width: 100%;
+}
+.header{
+    background-color: rgba(229, 84, 115, 0.10);
+    height: fit-content;
+}
+h1{
+    font-size: 80px;
+}
+button{
+    background-color: #E55473;
+    padding: 10px;
+    color: white;
+
+}
