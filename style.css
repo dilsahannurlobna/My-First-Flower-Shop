@@ -1,9 +1,12 @@
 main{
     display: flex;
-    margin-left: 240px;
-    margin-right: 240px;
+    
     justify-content: center;
     align-items: center;
+}
+.marg{
+    margin-left: 240px;
+    margin-right: 240px;
 }
 img{
     max-width: 100%;
@@ -15,8 +18,58 @@ img{
 h1{
     font-size: 80px;
 }
+h2{
+    font-size: 60px;
+}
 button{
     background-color: #E55473;
     padding: 10px;
     color: white;
+}
+.flower{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:266px
+   
+}
+.flowerimg3{
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(71, 125, 17, 0.15);
+    padding-top: 43px;
+}
+.flowerimg2{
+    border-radius: 300px 300px 0px 0px;
+background: rgba(5, 151, 160, 0.15);
+padding-top: 100px;
+}
+.flowerimg1{
+    border-radius: 300px 300px 0px 0px;
+background: rgba(167, 33, 98, 0.15);
+}
+.flowerText{
+    text-align: center;
+}
+.text{
+    text-align: center;
+}
+footer{
+    height: 400px;
+    background-color: black;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.fl{
+    color: #E55473;
+    font-size: 40px;
+}
+.sho{
+    color: white;
+    font-size: 40px;
+}
+.copyright{
+    color: gray;
 }
